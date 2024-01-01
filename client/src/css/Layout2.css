@@ -1,0 +1,20 @@
+/* Layout.css */
+.layout {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #000000;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,82 @@
+
+ /* CSS for the sidebar */
+/* Updated CSS for the sidebar */
+.sidebar {
+  background-color: #bfb1b1;
+  color: #fff;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li.active a {
+  background-color: #333;
+}
+
+.sidebar ul li a:hover {
+  background-color: #333;
+}
+
+/* Updated styles for the table and container */
+.Container {
+  margin-top: 50px;
+  margin-left: 220px; /* Adjust the margin to provide space for the sidebar */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px; /* Add padding to create space for the sidebar */
+}
+
+.tableContainer table thead tr {
+  background-color: #f0eaea;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  min-width: 100px;
+  padding: 7px;
+  text-align: center;
+}
+
+.tableContainer table tbody tr {
+  border: 1px solid #c9c5c2;
+}
+
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+}
+
+.btn-edit,
+.btn-delete {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+
+.btn-edit {
+  background-color: #dde0c4;
+}
+
+.btn-delete {
+  background-color: #fa1717;
+  color: white;
+}

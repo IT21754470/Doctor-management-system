@@ -1,0 +1,14 @@
+
+/* Layout.css */
+
+.app-layout {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 60px;
+}
+
+/* Add more styles as needed */
+
